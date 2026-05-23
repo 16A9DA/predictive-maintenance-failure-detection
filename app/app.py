@@ -60,9 +60,9 @@ if st.button("Predict", type="primary", use_container_width=True):
     st.divider()
     if prediction == 1:
         st.error(
-            f"**Machine Failure Predicted** — {probability:.1%} failure probability"
+            f"**Machine Failure Predicted**: {probability:.1%} failure probability"
         )
     else:
-        st.success(f"**No Failure Predicted** — {probability:.1%} failure probability")
+        st.success(f"**No Failure Predicted**: {probability:.1%} failure probability")
 
     st.progress(float(probability), text=f"Failure probability: {probability:.1%}")
