@@ -101,6 +101,9 @@ The app will open in your browser. Adjust the sliders and dropdowns to reflect a
 
 The Streamlit app accepts the six input features via interactive sliders and a dropdown, then outputs:
 
-- ✅ **No Failure Predicted** or ❌ **Machine Failure Predicted**
+- **No Failure Predicted** or **Machine Failure Predicted**
 - Failure probability as a percentage
 - A visual progress bar showing the probability level
+
+# link:
+https://predictive-maintenance-failure-detection.streamlit.app/
