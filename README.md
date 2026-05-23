@@ -30,7 +30,7 @@ Three pipeline models (preprocessing → classifier) were evaluated on a 20% hel
 |---|---|---|---|---|
 | Logistic Regression | 0.67 | 0.26 | 0.38 | 97% |
 | Random Forest | 0.85 | 0.56 | 0.67 | 98% |
-| **Gradient Boosting** ✅ | **0.83** | **0.57** | **0.68** | **98%** |
+| **Gradient Boosting** | **0.83** | **0.57** | **0.68** | **98%** |
 
 **Gradient Boosting** was selected as the final model for its best balance of precision and recall on the minority failure class.
 
@@ -79,8 +79,7 @@ riskpred/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/riskpred.git
-cd riskpred
+git clone https://github.com/16A9DA/predictive-maintenance-failure-detection.git
 ```
 
 ### 2. Install dependencies
@@ -105,5 +104,5 @@ The Streamlit app accepts the six input features via interactive sliders and a d
 - Failure probability as a percentage
 - A visual progress bar showing the probability level
 
-# link:
+## link:
 https://predictive-maintenance-failure-detection.streamlit.app/
